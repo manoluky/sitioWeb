@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_sitioWeb_1688150578544
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  name: test
+  identifier: test
+  orgIdentifier: default
+  projectIdentifier: default_project
