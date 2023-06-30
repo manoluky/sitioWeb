@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sitioWeb_1688150578544-pr-trigger-input-set
+  identifier: Build_sitioWeb_1688150578544prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sitioWeb_1688150578544
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
