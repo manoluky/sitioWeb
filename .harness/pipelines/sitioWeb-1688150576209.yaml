@@ -16,14 +16,7 @@ pipeline:
         spec:
           cloneCodebase: true
           execution:
-            steps:
-              - step:
-                  identifier: echo
-                  name: echo
-                  spec:
-                    command: echo hello world
-                  timeout: ""
-                  type: Run
+            steps: []
           platform:
             arch: Amd64
             os: Linux
